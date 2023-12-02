@@ -23,10 +23,6 @@ export function day2(input: string): SolutionPair {
 		let greenCount = 0;
 		let blueCount = 0;
 
-		let minRed = -1;
-		let minGreen = -1;
-		let minBlue = -1;
-
 		for (const match of matches) {
 			for (let i = 0; i < match.length; i++) {
 				const quantity = Number(match[i]);
@@ -41,10 +37,6 @@ export function day2(input: string): SolutionPair {
 							redCount = quantity;
 						}
 
-						if (quantity > minRed) {
-							minRed = quantity;
-						}
-
 						break;
 					}
 
@@ -53,20 +45,12 @@ export function day2(input: string): SolutionPair {
 							greenCount = quantity;
 						}
 
-						if (quantity > minGreen) {
-							minGreen = quantity;
-						}
-
 						break;
 					}
 
 					case 'blue': {
 						if (quantity > blueCount) {
 							blueCount = quantity;
-						}
-
-						if (quantity > minBlue) {
-							minBlue = quantity;
 						}
 
 						break;
