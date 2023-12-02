@@ -1,6 +1,5 @@
 import {describe, assert, it, expect} from 'vitest';
 import {getInput} from '../../../utils/days.js';
-
 import {day999} from './day999.js';
 
 const actualInput = await getInput(999);
