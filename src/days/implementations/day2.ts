@@ -73,15 +73,10 @@ export function day2(input: string): SolutionPair {
 					}
 				}
 			}
-
-			console.log('minimums for game', gameId, {minRed, minGreen, minBlue});
 		}
 
 		if (redCount <= 12 && greenCount <= 13 && blueCount <= 14) {
 			solution.part1 += gameId;
-			console.log(`Game ${gameId} is valid`);
-		} else {
-			console.log(`Game ${gameId} is invalid`);
 		}
 
 		const power = redCount * greenCount * blueCount;
