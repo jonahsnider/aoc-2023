@@ -323,7 +323,7 @@ __metadata:
     "@tsconfig/strictest": "npm:2.0.2"
     "@types/node": "npm:20.10.3"
     "@vitest/coverage-v8": "npm:0.34.6"
-    "@vitest/ui": "npm:0.34.6"
+    "@vitest/ui": "npm:0.34.7"
     clipanion: "npm:4.0.0-rc.2"
     convert: "npm:4.14.0"
     npm-run-all: "npm:4.1.5"
@@ -923,11 +923,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:0.34.6":
-  version: 0.34.6
-  resolution: "@vitest/ui@npm:0.34.6"
+"@vitest/ui@npm:0.34.7":
+  version: 0.34.7
+  resolution: "@vitest/ui@npm:0.34.7"
   dependencies:
-    "@vitest/utils": "npm:0.34.6"
+    "@vitest/utils": "npm:0.34.7"
     fast-glob: "npm:^3.3.0"
     fflate: "npm:^0.8.0"
     flatted: "npm:^3.2.7"
@@ -936,7 +936,7 @@ __metadata:
     sirv: "npm:^2.0.3"
   peerDependencies:
     vitest: ">=0.30.1 <1"
-  checksum: 4e4132aa462308d760924b5dd87c331b42caf09d1619a0f9b48eb2a531ed92ebb88471ef05a9cba301554d1e04cbbc94aa0971d79d5795818a0fcc9469dd327e
+  checksum: 9a56d63e3f91f8395f9125fe3dc0ea53a9972cfb00ee1963972031194ae85261d8afddd2cdd0af0c640db040532ed052e7ac98b871ef823f616a66c4b8bb4563
   languageName: node
   linkType: hard
 
@@ -948,6 +948,17 @@ __metadata:
     loupe: "npm:^2.3.6"
     pretty-format: "npm:^29.5.0"
   checksum: 09a1b2122ceb5541b4f3d64410088e363a36d6e4addf208b6458615ac856adf36c1c9b5431a45ea13a78c30e6a7dcb0696854abe69a710089ffa229356a5202b
+  languageName: node
+  linkType: hard
+
+"@vitest/utils@npm:0.34.7":
+  version: 0.34.7
+  resolution: "@vitest/utils@npm:0.34.7"
+  dependencies:
+    diff-sequences: "npm:^29.4.3"
+    loupe: "npm:^2.3.6"
+    pretty-format: "npm:^29.5.0"
+  checksum: 720b43f8fece1371aaafc722e5d86e1f5e4334db2aac638002a05cd60f097763ff07ae7e3a99db99f7c282d3f60036b76ee91129cf9f2e877812dd5eb432024f
   languageName: node
   linkType: hard
 
