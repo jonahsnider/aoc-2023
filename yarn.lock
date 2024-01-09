@@ -325,7 +325,7 @@ __metadata:
     "@vitest/coverage-v8": "npm:0.34.6"
     "@vitest/ui": "npm:0.34.7"
     clipanion: "npm:4.0.0-rc.2"
-    convert: "npm:4.14.0"
+    convert: "npm:4.14.1"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:3.1.1"
     type-fest: "npm:4.9.0"
@@ -1541,10 +1541,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"convert@npm:4.14.0":
-  version: 4.14.0
-  resolution: "convert@npm:4.14.0"
-  checksum: 48c416bcc047e48f2d9ca72e88da7299c68c28c8f36695bc7457002faa7930247f804c519149257aca2fc272c4b838acee79621d81fe52aabff389fd84a4d658
+"convert@npm:4.14.1":
+  version: 4.14.1
+  resolution: "convert@npm:4.14.1"
+  checksum: 7402e80b9cab4cc87e7f26b8e4fbe208a589555e07296ba565391bccfdd6dd46a31596928636e4b1c25c84326c4d19fbaf6f13851e3d45d1f9a0e38f9f39a836
   languageName: node
   linkType: hard
 
